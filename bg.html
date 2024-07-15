@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Planning | Personal Finance Management</title>
+    <link rel="stylesheet" href="C:\Users\ELCOT\Desktop\project IN\budget\bg.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Personal Finance Management</h1>
+            <nav>
+                <ul>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\home\home.html">Home</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\income\income.html">Track Income</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\expense\ex.html">Track Expenses</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\balance\balance.html">View Balance</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\budget\bg.html">Budget Planning</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\fr\fr.html">Financial Reports</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\profile\pr.html">Profile</a></li>
+                    <li><a href="C:\Users\ELCOT\Desktop\project IN\setting\set.html">Settings</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <section class="budget-planning">
+                <h2>Budget Planning</h2>
+                <form id="budget-form">
+                    <label for="budget-category">Budget Category:</label>
+                    <input type="text" id="budget-category" name="budget-category" placeholder="Enter budget category..." required>
+                    
+                    <label for="budget-amount">Budget Amount:</label>
+                    <input type="number" id="budget-amount" name="budget-amount" placeholder="Enter budget amount..." required>
+                    
+                    <div class="form-actions">
+                        <button type="submit" class="button">Add Budget</button>
+                        <button type="reset" class="button">Clear</button>
+                    </div>
+                </form>
+                
+                <div class="budget-list">
+                    <h3>Budget List</h3>
+                    <ul id="budgets-list">
+                        <!-- Budget items will be dynamically added here -->
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Personal Finance Management. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="C:\Users\ELCOT\Desktop\project IN\budget\bg.js"></script>
+</body>
+</html>
